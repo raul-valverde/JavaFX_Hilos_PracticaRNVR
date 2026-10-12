@@ -16,16 +16,14 @@ public class MainApp extends Application {
 
         Scene scene = new Scene(loader.load());
 
-        stage.setTitle("Práctica - Hilos en JavaFX");
+        stage.setTitle("Monitor de Procesos Empresarial - NicaData Solutions");
         stage.setScene(scene);
         stage.show();
 
-        ProcesadorController controller =
-                loader.getController();
+        ProcesadorController controller = loader.getController();
 
-        stage.setOnCloseRequest(event ->
-                controller.detenerAlCerrar()
-        );
+        // NUEVO: Interrumpe tanto el hilo de Clientes como el de Productos al cerrar la app
+        stage.setOnCloseRequest(event -> controller.detenerAlCerrar());
     }
 
     public static void main(String[] args) {
