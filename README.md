@@ -29,26 +29,26 @@ Para evitar el bloqueo de la interfaz gráfica (**JavaFX Application Thread**), 
 
 ## 📷 Capturas del Funcionamiento y Evidencia
 
-> *Nota: Reemplaza las rutas `docs/images/...` por las ubicaciones reales de tus imágenes.*
+
 
 ### 1. Estado Inicial
 La aplicación inicia con los componentes listos para la simulación.
-![Hilo inicial]<img width="687" height="580" alt="image" src="https://github.com/user-attachments/assets/e6a84d80-ee2f-4701-baf7-968329dacf45" />
+<img width="687" height="580" alt="image" src="https://github.com/user-attachments/assets/e6a84d80-ee2f-4701-baf7-968329dacf45" />
 
 
 ### 2. Procesos Concurrentes en Ejecución
 Ambos hilos (`Clientes` y `Productos`) avanzan a velocidades distintas de forma simultánea e independiente sin congelar la ventana.
-![Hilo en proceso]<img width="683" height="573" alt="image" src="https://github.com/user-attachments/assets/9d19d4a0-ddfd-43b4-b184-5afeaf534734" />
+<img width="683" height="573" alt="image" src="https://github.com/user-attachments/assets/9d19d4a0-ddfd-43b4-b184-5afeaf534734" />
 
 
 ### 3. Detención Individual de Hilo
 Demostración de la capacidad de detener el hilo de *Clientes* mientras el hilo de *Productos* continúa su procesamiento normal.
-![Hilo Detenido]<img width="687" height="577" alt="image" src="https://github.com/user-attachments/assets/2d02c2b1-0720-46fc-8628-87af62bd9fa0" />
+<img width="687" height="577" alt="image" src="https://github.com/user-attachments/assets/2d02c2b1-0720-46fc-8628-87af62bd9fa0" />
 
 
 ### 4. Procesamiento Completado
 Resultado final cuando ambos hilos culminan el 100% de sus registros.
-![Procesos Completados]<img width="692" height="591" alt="image" src="https://github.com/user-attachments/assets/ab2f4402-d0aa-4656-9ed5-c11478e19d11" />
+<img width="692" height="591" alt="image" src="https://github.com/user-attachments/assets/ab2f4402-d0aa-4656-9ed5-c11478e19d11" />
 
 
 ---
